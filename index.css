@@ -3,7 +3,7 @@
     	-webkit-transform: rotate(0deg);
     }
     to {
-    	-webkit-transform: rotate(360deg);
+    	-webkit-transform: rotate(180deg);
     }
 } 
 .pos{

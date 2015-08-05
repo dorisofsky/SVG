@@ -13,7 +13,7 @@
 	background-position: center center;
 	background-repeat: no-repeat;
 	fill: none;
-	stroke-width: 3;
+	stroke-width: 10;
 	-webkit-transition: all .5s;
 	stroke: url(#gradient);
 	-webkit-animation: rotate 1s infinite linear;

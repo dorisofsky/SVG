@@ -18,3 +18,10 @@
 	stroke: url(#gradient);
 	-webkit-animation: rotate 1s infinite linear;
 }
+
+body.path{
+	stroke = #333 ;
+	stroke-dasharray = 20 ;
+	stroke-width = 3 ; 
+	stroke-dashoffset = 10 ;
+}

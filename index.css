@@ -19,9 +19,26 @@
 	-webkit-animation: rotate 1s infinite linear;
 }
 
-body.path{
+body.line{
 	stroke = #333 ;
 	stroke-dasharray = 20 ;
 	stroke-width = 3 ; 
 	stroke-dashoffset = 10 ;
+	animation: draw 10s linear infinite;
+	fill-opacity: 0;
 }
+
+//sass
+.stroke
+	stroke-dashoffset: 2000
+	stroke-dasharray: 2000
+
+//動畫效果 10秒 線性動畫 無限循環
+.ani 
+	animation: circle-draw 10s linear infinite
+
+//keyframes的值 
+//將dashoffset拉回至0
+@keyframes circle-draw
+	80% 
+		stroke-dashoffset: 0
